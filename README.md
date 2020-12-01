@@ -1,3 +1,3 @@
 # DotMinecraftLauncher
-## This is my customized DotMCLauncher
-## Used in my minecarft launcher.
+This is my customized DotMCLauncher
+Used in my minecraft launcher.
