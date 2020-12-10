@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--<TargetFrameworks>netstandard2.0;net48;netcoreapp3.1</TargetFrameworks>-->
+	  <TargetFrameworks>net48;netcoreapp3.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>sisit135</Company>
+    <Authors>sisit135</Authors>
+    <Description>Minecraft Launcher core
+Provide methods for:
+- minecraft downloading
+- versioning</Description>
+    <Copyright>Copyright (C) 2017-2020 sisit135</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile>F:\Dev\FreeLauncher-master\dotMCLauncher\dotMCLauncher.xml</DocumentationFile>
+  </PropertyGroup>
+	
+<PropertyGroup>
+   <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+</PropertyGroup> 
+
+</Project>
