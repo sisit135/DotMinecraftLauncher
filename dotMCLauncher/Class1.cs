@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace dotMCLauncher
+﻿namespace dotMCLauncher
 {
     public class Class1
     {

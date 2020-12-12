@@ -12,7 +12,6 @@ namespace dotMCLauncher
             {
                 string Response = string.Empty;
 
-
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(address);
                 request.AutomaticDecompression = DecompressionMethods.GZip;
                 request.Method = "GET";

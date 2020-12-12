@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace dotMCLauncher
 {
@@ -17,13 +13,10 @@ namespace dotMCLauncher
 
             public string Error { get; set; }
 
-
             public MinecraftCrashedException(string message)
                 : base(String.Format("Minecraft Crashed: {0}", message))
             {
-
             }
-
         }
     }
 }
