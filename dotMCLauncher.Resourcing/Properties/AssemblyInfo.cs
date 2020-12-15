@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("DotMinecraftLauncher.Resourcing")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Minecraft Launcher Engine")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("sisit135")]
 [assembly: AssemblyProduct("DotMinecraftLauncher.Resourcing")]
-[assembly: AssemblyCopyright("Copyright Igor Popov© 2018")]
+[assembly: AssemblyCopyright("Copyright 2019-2020 sisit135")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

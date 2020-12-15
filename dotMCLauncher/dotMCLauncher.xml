@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>DotMinecraftLauncher</name>
+        <name>dotMCLauncher</name>
     </assembly>
     <members>
         <member name="T:DotMinecraftLauncher.GCSService">
@@ -14,12 +14,20 @@
             This class contains utility methods.
             </summary>
         </member>
+        <member name="M:DotMinecraftLauncher.Helper.TakeScreenshot(System.String,System.Int32,System.Int32)">
+            <summary>
+            Take screenshot from current screen.
+            </summary>
+            <returns>
+            The screenshot file location.
+            </returns>
+        </member>
         <member name="T:DotMinecraftLauncher.Helper.StringCipher">
             <summary>
             Decrypt and Encrypt a string.
             </summary>
         </member>
-        <member name="T:DotMinecraftLauncher.MinecraftClientException">
+        <member name="T:DotMinecraftLauncher.MinecraftException">
             <summary>
             The game client exception
             </summary>

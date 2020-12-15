@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("DotMinecraftLauncher.Versioning")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Minecraft Launcher Engine")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("sisit135")]
 [assembly: AssemblyProduct("DotMinecraftLauncher.Versioning")]
 [assembly: AssemblyCopyright("Copyright Igor Popov© 2018")]
 [assembly: AssemblyTrademark("")]

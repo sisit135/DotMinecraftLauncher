@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("DotMinecraftLauncher")]
-[assembly: AssemblyDescription("Minecraft Launcher Engine\r\nNamespace layout:\r\n\r\n")]
+[assembly: AssemblyDescription("Minecraft Launcher Engine\r\n\r\n\r\n")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("sisit135")]
 [assembly: AssemblyProduct("DotMinecraftLauncher")]

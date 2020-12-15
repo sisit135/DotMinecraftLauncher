@@ -7,20 +7,37 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Company>sisit135</Company>
     <Authors>sisit135</Authors>
-    <Description>Minecraft Launcher core
-Provide methods for:
-- minecraft downloading
-- versioning</Description>
+    <Description>Minecraft Launcher Engine
+</Description>
     <Copyright>Copyright (C) 2017-2020 sisit135</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
-    <DocumentationFile>F:\Dev\FreeLauncher-master\dotMCLauncher\dotMCLauncher.xml</DocumentationFile>
+    <DocumentationFile>F:\Dev\FreeLauncher-master\DotMinecraftLauncher\DotMinecraftLauncher.xml</DocumentationFile>
   </PropertyGroup>
 	
 <PropertyGroup>
    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-</PropertyGroup> 
+   <PackageId>DotMinecraftLauncher</PackageId>
+   <PackageIcon>Logo.png</PackageIcon>
+   <PackageProjectUrl>https://github.com/sisit135/DotMinecraftLauncher</PackageProjectUrl>
+   <RepositoryUrl>https://github.com/sisit135/DotMinecraftLauncher</RepositoryUrl>
+</PropertyGroup>
+	
+<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net48|AnyCPU'">
+  <DocumentationFile>F:\Dev\FreeLauncher-master\src\DotMinecraftLauncher\dotMCLauncher\dotMCLauncher.xml</DocumentationFile>
+</PropertyGroup>
+	
+<ItemGroup>
+  <None Include="..\Logo.png">
+    <Pack>True</Pack>
+    <PackagePath></PackagePath>
+  </None>
+</ItemGroup>
+	
+<ItemGroup>
+  <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+</ItemGroup> 
 
 </Project>
