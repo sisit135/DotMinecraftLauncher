@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace dotMCLauncher.Profiling
+namespace DotMinecraftLauncher.Profiling
 {
     public class Profile
     {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 
-namespace dotMCLauncher.Networking
+namespace DotMinecraftLauncher.Networking
 {
     public class Refresh : Request
     {

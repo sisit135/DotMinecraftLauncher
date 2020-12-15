@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace dotMCLauncher
+namespace DotMinecraftLauncher
 {
     /// <summary>
     /// Provide methods for performing google cloud task

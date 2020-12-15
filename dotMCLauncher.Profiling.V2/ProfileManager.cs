@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 
-namespace dotMCLauncher.Profiling.V2
+namespace DotMinecraftLauncher.Profiling.V2
 {
     public class ProfileManager : Serializable
     {

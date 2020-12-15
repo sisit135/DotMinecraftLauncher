@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("dotMCLauncher.Networking")]
+[assembly: AssemblyTitle("DotMinecraftLauncher.Networking")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("dotMCLauncher.Networking")]
+[assembly: AssemblyProduct("DotMinecraftLauncher.Networking")]
 [assembly: AssemblyCopyright("Copyright Igor Popov© 2015-2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

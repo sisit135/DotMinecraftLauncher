@@ -1,4 +1,4 @@
-﻿namespace dotMCLauncher.Networking
+﻿namespace DotMinecraftLauncher.Networking
 {
     public class Signout : Request
     {

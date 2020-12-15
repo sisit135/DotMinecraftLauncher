@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>dotMCLauncher</name>
+        <name>DotMinecraftLauncher</name>
     </assembly>
     <members>
-        <member name="T:dotMCLauncher.GCSService">
+        <member name="T:DotMinecraftLauncher.GCSService">
             <summary>
             Provide methods for performing google cloud task
             </summary>
         </member>
-        <member name="T:dotMCLauncher.Helper">
+        <member name="T:DotMinecraftLauncher.Helper">
             <summary>
             This class contains utility methods.
             </summary>
         </member>
-        <member name="T:dotMCLauncher.Helper.StringCipher">
+        <member name="T:DotMinecraftLauncher.Helper.StringCipher">
             <summary>
             Decrypt and Encrypt a string.
             </summary>
         </member>
-        <member name="T:dotMCLauncher.MinecraftClientException">
+        <member name="T:DotMinecraftLauncher.MinecraftClientException">
             <summary>
             The game client exception
             </summary>

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace dotMCLauncher.Versioning
+namespace DotMinecraftLauncher.Versioning
 {
     public class VersionManifest : Version
     {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace dotMCLauncher.Profiling.V2
+namespace DotMinecraftLauncher.Profiling.V2
 {
     public class LauncherProfileResolution : Serializable
     {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 
-namespace dotMCLauncher.Versioning
+namespace DotMinecraftLauncher.Versioning
 {
     public class SingleArgument : Argument
     {

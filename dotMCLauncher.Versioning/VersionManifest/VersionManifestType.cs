@@ -1,4 +1,4 @@
-﻿namespace dotMCLauncher.Versioning
+﻿namespace DotMinecraftLauncher.Versioning
 {
     public enum VersionManifestType
     {

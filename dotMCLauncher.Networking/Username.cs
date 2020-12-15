@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using System.Net;
 
-namespace dotMCLauncher.Networking
+namespace DotMinecraftLauncher.Networking
 {
     public class Username
     {

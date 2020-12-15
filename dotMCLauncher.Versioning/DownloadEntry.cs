@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace dotMCLauncher.Versioning
+namespace DotMinecraftLauncher.Versioning
 {
     public class DownloadEntry
     {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace dotMCLauncher.Profiling
+namespace DotMinecraftLauncher.Profiling
 {
     public class ProfileManager
     {

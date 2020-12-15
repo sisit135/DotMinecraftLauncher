@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
 
-namespace dotMCLauncher.Resourcing
+namespace DotMinecraftLauncher.Resourcing
 {
     public class AssetsManifest
     {

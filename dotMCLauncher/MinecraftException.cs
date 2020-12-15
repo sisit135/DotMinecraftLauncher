@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace dotMCLauncher
+namespace DotMinecraftLauncher
 {
     /// <summary>
     /// The game client exception
     /// </summary>
-    public class MinecraftCrachedException : Exception
+    public class MinecraftException : Exception
     {
         public class MinecraftCrashedException : Exception
         {
@@ -19,4 +19,9 @@ namespace dotMCLauncher
             }
         }
     }
+
+    /// <summary>
+    /// When game crashed (Exit code -1)
+    /// </summary>
+    
 }

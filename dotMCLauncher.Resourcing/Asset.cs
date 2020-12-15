@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace dotMCLauncher.Resourcing
+namespace DotMinecraftLauncher.Resourcing
 {
     public class Asset
     {

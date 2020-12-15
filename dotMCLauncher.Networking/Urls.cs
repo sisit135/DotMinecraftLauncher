@@ -1,4 +1,4 @@
-﻿namespace dotMCLauncher.Networking
+﻿namespace DotMinecraftLauncher.Networking
 {
     internal static class Urls
     {

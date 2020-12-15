@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("dotMCLauncher")]
-[assembly: AssemblyDescription("Minecraft Launcher Engine")]
+[assembly: AssemblyTitle("DotMinecraftLauncher")]
+[assembly: AssemblyDescription("Minecraft Launcher Engine\r\nNamespace layout:\r\n\r\n")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("sisit135")]
-[assembly: AssemblyProduct("dotMCLauncher")]
+[assembly: AssemblyProduct("DotMinecraftLauncher")]
 [assembly: AssemblyCopyright("Copyright 2019-2020 sisit135")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

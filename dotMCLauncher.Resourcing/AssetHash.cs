@@ -1,4 +1,4 @@
-﻿namespace dotMCLauncher.Resourcing
+﻿namespace DotMinecraftLauncher.Resourcing
 {
     public class AssetHash
     {

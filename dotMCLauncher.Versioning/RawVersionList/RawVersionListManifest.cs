@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace dotMCLauncher.Versioning
+namespace DotMinecraftLauncher.Versioning
 {
     public class RawVersionListManifest
     {

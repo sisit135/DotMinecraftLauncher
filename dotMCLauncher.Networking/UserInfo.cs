@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace dotMCLauncher.Networking
+namespace DotMinecraftLauncher.Networking
 {
     public class UserInfo : Request
     {

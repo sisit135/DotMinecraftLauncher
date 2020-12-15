@@ -4,7 +4,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace dotMCLauncher.Networking
+namespace DotMinecraftLauncher.Networking
 {
     public abstract class Request
     {

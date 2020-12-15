@@ -6,7 +6,7 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace dotMCLauncher
+namespace DotMinecraftLauncher
 {
     /// <summary>
     /// This class contains utility methods.

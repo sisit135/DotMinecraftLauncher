@@ -2,7 +2,7 @@
 using System.IO;
 using System.Net;
 
-namespace dotMCLauncher
+namespace DotMinecraftLauncher
 {
     public class HttpServices
     {

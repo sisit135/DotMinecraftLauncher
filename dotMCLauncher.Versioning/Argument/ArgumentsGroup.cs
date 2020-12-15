@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace dotMCLauncher.Versioning
+namespace DotMinecraftLauncher.Versioning
 {
     public class ArgumentsGroup
     {

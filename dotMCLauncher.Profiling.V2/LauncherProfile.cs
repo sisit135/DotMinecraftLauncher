@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace dotMCLauncher.Profiling.V2
+namespace DotMinecraftLauncher.Profiling.V2
 {
     public class LauncherProfile : Serializable
     {

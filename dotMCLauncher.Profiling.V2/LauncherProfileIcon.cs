@@ -1,4 +1,4 @@
-﻿namespace dotMCLauncher.Profiling.V2
+﻿namespace DotMinecraftLauncher.Profiling.V2
 {
     public enum LauncherProfileIcon
     {

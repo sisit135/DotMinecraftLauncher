@@ -1,4 +1,4 @@
-﻿namespace dotMCLauncher
+﻿namespace DotMinecraftLauncher
 {
     public enum OperatingSystem
     {
