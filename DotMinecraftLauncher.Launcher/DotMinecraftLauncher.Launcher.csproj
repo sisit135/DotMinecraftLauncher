@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Package for creating custom Minecraft launcher</Description>
+    <Copyright>Copyright 2019-2020 sisit135</Copyright>
+    <Company>sisit135</Company>
+    <Authors>sisit135</Authors>
+    <PackageIcon>Logo.png</PackageIcon>
+    <Configurations>Debug;Release;RunMinecraft</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetZip" Version="1.15.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotMCLauncher.Networking\dotMCLauncher.Networking.csproj" />
+    <ProjectReference Include="..\dotMCLauncher.Profiling\dotMCLauncher.Profiling.csproj" />
+    <ProjectReference Include="..\dotMCLauncher.Resourcing\dotMCLauncher.Resourcing.csproj" />
+    <ProjectReference Include="..\dotMCLauncher.Versioning\dotMCLauncher.Versioning.csproj" />
+    <ProjectReference Include="..\dotMCLauncher\dotMCLauncher.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

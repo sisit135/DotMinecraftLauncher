@@ -32,5 +32,11 @@
             The game client exception
             </summary>
         </member>
+        <member name="T:DotMinecraftLauncher.MinecraftException.MinecraftCrashedException">
+             <summary>
+             When game crashed (Exit code -1)
+             </summary>
+            
+        </member>
     </members>
 </doc>

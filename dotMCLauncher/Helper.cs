@@ -17,7 +17,7 @@ namespace DotMinecraftLauncher
 
         public static bool AuthUser(String Token)
         {
-            if (CheckForInternetConnection()) return false;
+            if (!CheckForInternetConnection()) return false;
 
             if (HttpServices.HttpWebGET("https://us-central1-plenary-hangout-286411.cloudfunctions.net/FreeLauncher-AuthUser?message=" + Token) == "OK")
             {
